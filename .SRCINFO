@@ -1,0 +1,20 @@
+pkgbase = spectre-cli-git
+	pkgdesc = CLI tool for the Spectre password cypher
+	pkgver = r479.a5e7aab
+	pkgrel = 1
+	url = https://spectre.app
+	arch = x86_64
+	license = GPL3
+	makedepends = git
+	makedepends = cmake
+	makedepends = ncurses
+	depends = libsodium
+	depends = json-c
+	provides = spectre-cli
+	conflicts = spectre-cli
+	source = spectre-cli::git+https://gitlab.com/spectre.app/cli.git
+	source = spectre-api::git+https://gitlab.com/spectre.app/api.git
+	sha256sums = SKIP
+	sha256sums = SKIP
+
+pkgname = spectre-cli-git
